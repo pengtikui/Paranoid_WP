@@ -20,7 +20,6 @@ Paranoid WP 是为[小白学IT网站](http://www.xbxit.com)制作的 WordPress �
 * 更多功能
 * 细节完善
 * 添加多语言包
-* ...
 
 ## BUG
 
