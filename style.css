@@ -119,6 +119,11 @@ img{
 .main-content-wrap{
 	margin-top: 35px;
 }
+.archive-title{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0 0 15px 3px;
+}
 .entry{
 	padding: 35px;
 	background-color: #fff;
