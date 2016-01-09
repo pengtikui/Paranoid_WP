@@ -43,10 +43,16 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">小白学IT</a>
+					<a class="navbar-brand" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
 				</div>
-				<div class="collapse navbar-collapse" id="main-navbar">
-					<ul class="nav navbar-nav">
+				<?php wp_nav_menu( array(
+					'theme_location'	=> 'header_menu',
+					'container_class'	=> 'collapse navbar-collapse',
+					'container_id'		=> 'main-navbar',
+					'menu_class'		=> 'nav navbar-nav'
+					)
+				); ?>
+					<!-- <ul class="nav navbar-nav">
 						<li><a href=""><i class="fa fa-home"></i> 首页</a></li>
 						<li class="dropdown">
 							<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-book"></i> 文章分类</a>
@@ -59,8 +65,7 @@
 						</li>
 						<li><a href=""><i class="fa fa-pencil-square-o"></i> 投稿</a></li>
 						<li><a href=""><i class="fa fa-info-circle"></i> 关于</a></li>
-					</ul>
-				</div>
+					</ul> -->
 			</div>
 		</div>
 	</div>
