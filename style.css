@@ -28,6 +28,7 @@ jQuery 1.11.2
 	*footer
 	*post style
 	*sidebar
+    *comments
 	*go-to-top
 */
 
@@ -498,6 +499,13 @@ img{
     background-color: #15a892;
     color: #fff;
     padding: 0;
+}
+
+/* comments */
+.comments{
+    padding: 35px;
+    background-color: #fff;
+    margin-bottom: 35px;
 }
 
 /* go-to-top */
