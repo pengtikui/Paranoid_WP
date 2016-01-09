@@ -2,7 +2,7 @@
 	<div class="input-group">
 		<input type="text"	name="s" class="form-control" placeholder="<?php _e('请输入关键词', 'paranoid') ?>">	
 		<div class="input-group-addon">
-			<a type="submit"><span class="glyphicon glyphicon-search"></span></a>
+			<input type="submit" value="<?php _e('搜索', 'paranoid') ?>">
 		</div>
 	</div>
 </form>
