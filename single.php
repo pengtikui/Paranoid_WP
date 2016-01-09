@@ -7,6 +7,11 @@
 				<?php while ( have_posts() ) : the_post();
 					get_template_part( 'template-parts/content', 'single' );
 				endwhile; ?>
+				<?php 
+					if ( comments_open() || get_comments_number() ) {
+						comments_template();
+					}
+				?>
 			</div>
 			<div class="col-md-4">
 				<?php get_sidebar(); ?>
