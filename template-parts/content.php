@@ -9,7 +9,7 @@
 			<a href=""><?php the_category(', ') ?></a>
 			&bull;
 			<span class="fa fa-comments-o"></span>
-			<span>暂无评论</span>
+			<span><?php comments_number(); ?></span>
 		</div>
 	</div>
 	<div class="entry-content">
