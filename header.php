@@ -52,20 +52,6 @@
 					'menu_class'		=> 'nav navbar-nav'
 					)
 				); ?>
-					<!-- <ul class="nav navbar-nav">
-						<li><a href=""><i class="fa fa-home"></i> 首页</a></li>
-						<li class="dropdown">
-							<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-book"></i> 文章分类</a>
-							<ul class="dropdown-menu">
-								<li><a href="">11111</a></li>
-								<li><a href="">11111</a></li>
-								<li><a href="">11111</a></li>
-								<li><a href="">11111</a></li>
-							</ul>
-						</li>
-						<li><a href=""><i class="fa fa-pencil-square-o"></i> 投稿</a></li>
-						<li><a href=""><i class="fa fa-info-circle"></i> 关于</a></li>
-					</ul> -->
 			</div>
 		</div>
 	</div>
