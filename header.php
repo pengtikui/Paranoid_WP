@@ -5,7 +5,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#15A892">
-	<title><?php bloginfo('name'); ?></title>
+	<title>
+		<?php 
+	        if (is_home()||is_search()){ bloginfo('name'); echo " | "; bloginfo('description'); } 
+	        else{wp_title(''); echo ' | '; bloginfo('name');} 
+	    ?>
+    </title>
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/statics/css/bootstrap.min.css">
 	<!-- Font-Awesome -->
