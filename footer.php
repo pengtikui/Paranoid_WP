@@ -7,6 +7,11 @@
 					<span>Copyright &copy; <?php echo date('Y'); ?> <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></span> |
 					<span>Powered by <a href="//cn.wordpress.org">WordPress</a></span> |
 					<span>Theme by <a href="//pengtikui.cn" target="_blank">Paranoid_K</a></span>
+					<?php
+						if(!empty(get_option('paranoid_analyze_code'))){
+							echo " | <span>".get_option('paranoid_analyze_code')."</span>";
+						}
+					?>
 				</div>
 			</div>
 		</div>
