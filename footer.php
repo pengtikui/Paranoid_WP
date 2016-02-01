@@ -11,6 +11,9 @@
 						if(!empty(get_option('paranoid_analyze_code'))){
 							echo " | <span>".get_option('paranoid_analyze_code')."</span>";
 						}
+						if(!empty(get_option('paranoid_icp_number'))){
+							echo " | <span><a href=\"http://www.miitbeian.gov.cn/\" target=\"_blank\">".get_option('paranoid_icp_number')."</a></span>";
+						}
 					?>
 				</div>
 			</div>
