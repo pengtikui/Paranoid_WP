@@ -1,6 +1,6 @@
 <article class="entry">
 	<div class="entry-head">
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<h1 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 		<div class="entry-meta">
 			<span class="fa fa-calendar"></span>
 			<span><?php the_time('Y-m-d') ?></span>
