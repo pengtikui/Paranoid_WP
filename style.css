@@ -132,6 +132,27 @@ img{
     position: relative;
     overflow: hidden;
 }
+.entry .featured{
+    position: absolute;
+    background-color: #15a892;
+    color: #fff;
+    top: -12px;
+    right: -32px;
+    width: 80px;
+    height: 40px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.entry .featured p{
+    line-height: 55px;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
 .entry-head{
     text-align: center;
 }

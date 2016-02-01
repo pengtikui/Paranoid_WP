@@ -1,4 +1,7 @@
 <article class="entry">
+	<?php if(is_sticky()) {
+		echo "<div class=\"featured\" title=\"置顶推荐\"><p><i class=\"fa fa-star\"></i></p></div>";
+	} ?>
 	<div class="entry-head">
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 		<div class="entry-meta">
