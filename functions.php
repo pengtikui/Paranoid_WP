@@ -5,8 +5,6 @@ function paranoid_setup(){
     load_theme_textdomain('paranoid', get_template_directory().'/languages');
     // Add default posts and comments RSS feed links to head.
     add_theme_support( 'automatic-feed-links' );
-    // 导航栏
-    add_action( 'init', 'register_paranoid_menus' );
 }
 
 // 侧边栏
@@ -29,6 +27,10 @@ function register_paranoid_menus(){
         array('header_menu' => __('顶部导航栏', 'paranoid'))
     );
 }
+add_action( 'init', 'register_paranoid_menus' );
+
+// 主题选项
+include_once('inc/options.php');
 
 // 压缩html (代码来自网络)
 function wp_compress_html(){
