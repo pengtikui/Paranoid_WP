@@ -13,9 +13,7 @@
 		<?php the_content(''); ?>
 	</div>
 	<div class="entry-footer">
-		<div class="tag-list"> <i class="fa fa-tags"></i>
-			<?php the_tags(''); ?>
-		</div>
+		
 		<!-- baidu share -->
 		<div id="sharebox" class="bdsharebuttonbox">
 			<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
