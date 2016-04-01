@@ -5,16 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#15A892">
-	<title>
-		<?php 
-	        if (is_home()||is_search()){ bloginfo('name'); echo " | "; bloginfo('description'); } 
-	        else{wp_title(''); echo ' | '; bloginfo('name');} 
-	    ?>
-    </title>
+	<title><?php if (is_home()||is_search()){ bloginfo('name'); echo " | "; bloginfo('description'); } else{wp_title(''); echo ' | '; bloginfo('name');} ?></title>
 	<!-- Bootstrap -->
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/statics/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<!-- Font-Awesome -->
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/statics/css/font-awesome.min.css">
+	<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<!-- Custom -->
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

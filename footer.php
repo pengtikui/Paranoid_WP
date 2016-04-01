@@ -21,8 +21,8 @@
 	</div>
 </footer>
 <!-- jQuery -->
-<script src="<?php bloginfo('template_url'); ?>/statics/js/jquery-1.11.2.min.js"></script>
+<script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
 <!-- Boostrap -->
-<script src="<?php bloginfo('template_url'); ?>/statics/js/bootstrap.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
