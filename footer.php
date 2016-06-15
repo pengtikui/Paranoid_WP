@@ -24,5 +24,14 @@
 <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
 <!-- Boostrap -->
 <script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!-- Highlight.js -->
+<?php if ( is_single() || is_page() ) { ?>
+<script src="//cdn.bootcss.com/highlight.js/9.4.0/highlight.min.js"></script>
+<script>
+	$('pre code').each(function(i, block) {
+		hljs.highlightBlock(block);
+	});
+</script>
+<?php } ?>
 </body>
 </html>
