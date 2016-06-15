@@ -52,10 +52,6 @@ a{
 img{
     max-width: 100%;
 }
-/* baidu share */
-.bdsharebuttonbox{
-    float: right;
-}
 /* pagination */
 .pagination{
     margin: 0 0 35px;
