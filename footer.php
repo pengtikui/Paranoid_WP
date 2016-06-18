@@ -20,6 +20,9 @@
 		</div>
 	</div>
 </footer>
+<a href="#" id="back-to-top" title="返回顶部">
+	<i class="glyphicon glyphicon-menu-up"></i>
+</a>
 <!-- jQuery -->
 <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
 <!-- Boostrap -->
@@ -33,5 +36,24 @@
 	});
 </script>
 <?php } ?>
+<!-- back to top -->
+<script>
+	$("#back-to-top").hide();
+	$(function () {
+		$(window).scroll(function () {
+			if($(window).scrollTop() > 100) {
+				$("#back-to-top").fadeIn(500);
+			}
+			else {
+				$("#back-to-top").fadeOut(500);
+			}
+		});
+		$("#back-to-top").click(function (e) {
+			e.preventDefault();
+			$("html body").animate({scrollTop: 0}, "slow");
+			return false;
+		});
+	});
+</script>
 </body>
 </html>
