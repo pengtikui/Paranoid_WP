@@ -19,5 +19,6 @@
 		<div class="tag-list"> <i class="fa fa-tags"></i>
 			<?php the_tags(''); ?>
 		</div>
+		<div class="social-share" data-url="<?php the_permalink(); ?>" data-source="<?php bloginfo('name'); ?>" data-sites="weibo,qzone,tencent,wechat,qq,douban"></div>
 	</div>
 </article>

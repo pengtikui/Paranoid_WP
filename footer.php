@@ -36,6 +36,10 @@
 	});
 </script>
 <?php } ?>
+<!-- Social Share -->
+<?php if ( is_single() ) { ?>
+<script src="<?php bloginfo('template_url'); ?>/statics/js/jquery.share.min.js"></script>
+<?php } ?>
 <!-- back to top -->
 <script>
 	$("#back-to-top").hide();

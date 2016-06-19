@@ -179,7 +179,7 @@ img{
 .entry-footer{
     margin-top: 20px;
     border-top: 1px solid #ebebeb;
-    padding: 15px 0 0;
+    padding-top: 15px;
 }
 .tag-list{
     float: left;
@@ -190,6 +190,9 @@ img{
 .tag-list a:hover{
     text-decoration: none;
     color: #15a892;
+}
+.social-share{
+    float: right;
 }
 .entry-more{
     display: block;

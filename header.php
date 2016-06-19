@@ -12,9 +12,13 @@
 	<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<!-- Custom -->
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-	<!--  highlight.js CSS	-->
+	<!-- highlight.js CSS -->
 	<?php if ( is_single() || is_page() ) { ?>
 	<link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/9.4.0/styles/github-gist.min.css">
+	<?php } ?>
+	<!-- Social Share -->
+	<?php if ( is_single() ) { ?>
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/statics/css/share.min.css">
 	<?php } ?>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
