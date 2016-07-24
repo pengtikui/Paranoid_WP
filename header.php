@@ -8,7 +8,7 @@
     <meta name="theme-color" content="#15A892">
     <!-- SEO -->
     <meta name="description" content="<?php if (is_home()||is_search()){ bloginfo('name'); echo " | "; bloginfo('description'); } else{wp_title(''); echo ' | '; bloginfo('name');} ?>">
-    <meta name="keywords" content="<?php if (is_single()) { the_tags(''); } else { bloginfo('name'); } ?>">
+    <meta name="keywords" content="<?php bloginfo('name'); ?>">
 	<title><?php if (is_home()||is_search()){ bloginfo('name'); echo " | "; bloginfo('description'); } else{wp_title(''); echo ' | '; bloginfo('name');} ?></title>
 	<!-- Apple iOS -->
 	<link rel="apple-touch-icon" sizes="120x120" href="<?php bloginfo('template_url'); ?>/statics/images/touch-icon-iphone-retina.png">
