@@ -4,8 +4,15 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Mobile Chome -->
     <meta name="theme-color" content="#15A892">
+    <!-- SEO -->
+    <meta name="description" content="<?php if (is_home()||is_search()){ bloginfo('name'); echo " | "; bloginfo('description'); } else{wp_title(''); echo ' | '; bloginfo('name');} ?>">
+    <meta name="keywords" content="<?php if (is_single()) { the_tags(''); } else { bloginfo('name'); } ?>">
 	<title><?php if (is_home()||is_search()){ bloginfo('name'); echo " | "; bloginfo('description'); } else{wp_title(''); echo ' | '; bloginfo('name');} ?></title>
+	<!-- Apple iOS -->
+	<link rel="apple-touch-icon" sizes="120x120" href="<?php bloginfo('template_url'); ?>/statics/images/touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="<?php bloginfo('template_url'); ?>/statics/images/touch-icon-ipad-retina.png">
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<!-- Font-Awesome -->
