@@ -19,7 +19,7 @@
 		<?php the_content(''); ?>
 	</div>
 	<div class="entry-footer">
-		<div class="tag-list"> <i class="fa fa-tags"></i>
+		<div class="tag-list hidden-xs"><i class="fa fa-tags"></i>
 			<?php the_tags(''); ?>
 		</div>
 		<a href="<?php the_permalink(); ?>" class="btn entry-more"><?php _e('阅读全文', 'paranoid') ?></a>

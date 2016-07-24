@@ -106,10 +106,23 @@ img{
 .main-navbar{
     background-color: #fff;
 }
+.main-navbar li{
+    margin: 0 5px;
+}
 .main-navbar a{
     color: #000;
 }
-.main-navbar li:hover{
+.main-navbar li:hover,
+.main-navbar .current-menu-item{
+    border-bottom: 2px solid #15a892;
+    margin-bottom: -2px;
+}
+.main-navbar li:hover a,
+.main-navbar .current-menu-item a,
+.navbar-brand:hover{
+    color: #15a892;
+}
+.main-navbar a:hover{
     background-color: #fff !important;
 }
 /* main content */
